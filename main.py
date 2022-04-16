@@ -2,7 +2,7 @@
 
 import requests
 
-url = "https://api.telegram.org/bot5352810523:AAEOH0DYYzjYkSsPcAtG7Flc5oIzbfZCn-o/"
+url = "https://api.telegram.org/bot5399646312:AAEE8KKx8k7i-BAS6m107jHbaCvXZZ4jiGI/"
 
 
 def last_update(request):
