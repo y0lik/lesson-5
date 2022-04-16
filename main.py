@@ -33,9 +33,11 @@ def main():
 		if update_id == update['update_id']:
 			message = get_message_test(update).lower()
 			if message == "hi":
-				send_message(get_chat_id(update), 'HELLO!')
+				send_message(get_chat_id(update), 'Hello!')
+			elif message == "Whats your name?":
+				send_message(get_chat_id(update), 'My name is Simulator of students life!')
 			else:
-				send_message(get_chat_id(update), 'I dont now!')
+				send_message(get_chat_id(update), 'I dont know!')
 
 			update_id += 1
 
